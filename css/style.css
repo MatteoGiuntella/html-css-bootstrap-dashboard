@@ -33,9 +33,6 @@ img{
     display: block;
     width: 100%;
 }
-
-
-
 /* header */
 
 #box-logo-small > img{
@@ -45,6 +42,8 @@ img{
    height: 65px;
 }
 /* main */
+
+/* left */
 .aside,
 .right-section{
     height: calc(100vh - 65px);
@@ -61,4 +60,16 @@ img{
 }
 .aside-bottom div{
     margin-bottom: 30px;
+}
+/* right */
+.bg-blue{
+    background-color: #1B72E8;
+    color: white;
+}
+.text-bg{
+    background-color: #165BBA;
+    color: white;
+}
+#offcanvasRight{
+    width: 60vw;
 }
