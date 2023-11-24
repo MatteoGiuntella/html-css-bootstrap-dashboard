@@ -77,3 +77,18 @@ img{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
 }
+.bg-nav{
+    background-color: #E5E5E5;
+}
+.tb-item{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #F26551;
+    border-radius: 50%;
+    background-color: #F26551;
+    text-align: center;
+    line-height: 15px;
+}
+.section-right-bottom{
+    height: calc(100vh - 65px - 128px);
+}
