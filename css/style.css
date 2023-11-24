@@ -73,3 +73,7 @@ img{
 #offcanvasRight{
     width: 60vw;
 }
+.bg-img{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+}
