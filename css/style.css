@@ -37,12 +37,28 @@ img{
 
 
 /* header */
-header{
-    max-height: 200px;
-}
+
 #box-logo-small > img{
     width: 30px;
 }
 .row-header{
-    padding: 10px;
+   height: 65px;
+}
+/* main */
+.aside,
+.right-section{
+    height: calc(100vh - 65px);
+}
+.aside{
+    width: 10%;
+}
+.aside div div {
+    margin-top: 20px;
+}
+.aside div div span,
+.aside-bottom div span {
+    padding-left: 10px;
+}
+.aside-bottom div{
+    margin-bottom: 30px;
 }
