@@ -8,13 +8,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bool Dashboard</title>
-    
+
 </head>
 <body>
 <!-- inizio header -->
     <header>
-
+        <div class="container-fluid">
+            <nav>
+                <div class="row row-header">
+                    <div class="col-auto">
+                        <div id="box-logo-big">
+                            <img class="d-lg-block d-md-none d-sm-none d-none" src="img/logo.svg" alt="">
+                        </div>
+                        <div id="box-logo-small" >
+                            <img class="d-lg-none" src="img/mobile-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form class="row row-cols-lg-auto g-3 align-items-center">
+                           
+                            <div class="input-group">
+                                <div class="input-group-text"><i class="fa-solid fa-magnifying-glass" style="color: #1e1e1f;"></i></div>
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="prova a scrivere....">  
+                            </div>
+                    </div>
+                    <div class="col-auto">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item"><i class="fa-solid fa-bars"></i></li>
+                            <li class="list-group-item"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                            <li class="list-group-item"><i class="fa-solid fa-question"></i></li>
+                            <li><div class="dropdown">
+                                 <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell" style="color: #ffe14d;"></i>
+                                 </button>
+                                 <ul class="dropdown-menu">
+                                    <li><button class="dropdown-item" type="button">Action</button></li>
+                                    <li><button class="dropdown-item" type="button">Another action</button></li>
+                                    <li><button class="dropdown-item" type="button">Something else here</button></li>
+                                 </ul>
+                                </div>
+                            </li>
+                          </ul>
+                           
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
  <!-- fine header -->
  <!-- inizio main -->

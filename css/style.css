@@ -1,6 +1,7 @@
-/* reset */
+/* debug */
 div{
     border: 1px solid black;
+    
 }
 a{
     border: 1px solid blue;
@@ -10,6 +11,7 @@ span{
 }
 li{
     border: 1px solid green;
+    list-style: none;
 }
 table{
     border: 1px solid yellow;
@@ -25,4 +27,22 @@ h1, h2, h3, h4, h5{
 }
 button{
     border: 1px solid aquamarine;
+}
+/* reset general */
+img{
+    display: block;
+    width: 100%;
+}
+
+
+
+/* header */
+header{
+    max-height: 200px;
+}
+#box-logo-small > img{
+    width: 30px;
+}
+.row-header{
+    padding: 10px;
 }
