@@ -73,6 +73,12 @@ img{
 #offcanvasRight{
     width: 60vw;
 }
+@media screen and (max-width : 768px) {
+    #offcanvasRight{
+        width: 100vw;
+    }    
+}
+
 .bg-img{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
@@ -81,13 +87,13 @@ img{
     background-color: #E5E5E5;
 }
 .tb-item{
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     border: 1px solid #F26551;
     border-radius: 50%;
     background-color: #F26551;
     text-align: center;
-    line-height: 15px;
+    line-height: 20px;
 }
 .section-right-bottom{
     height: calc(100vh - 65px - 128px);
