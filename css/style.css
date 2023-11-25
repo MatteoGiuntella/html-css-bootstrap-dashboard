@@ -1,40 +1,10 @@
-/* debug */
-div{
-    border: 1px solid black;
-    
-}
-a{
-    border: 1px solid blue;
-}
-span{
-    border: 1px solid red;
-}
-li{
-    border: 1px solid green;
-    list-style: none;
-}
-table{
-    border: 1px solid yellow;
-}
-input{
-    border: 1px solid violet;
-}
-p{
- border: 1px solid orange;
-}
-h1, h2, h3, h4, h5{
-    border: 1px solid lightcoral;
-}
-button{
-    border: 1px solid aquamarine;
-}
+
 /* reset general */
 img{
     display: block;
     width: 100%;
 }
 /* header */
-
 #box-logo-small > img{
     width: 30px;
 }
@@ -42,15 +12,13 @@ img{
    height: 65px;
 }
 /* main */
-
 /* left */
 .aside,
 .right-section{
     height: calc(100vh - 65px);
 }
-.aside{
-    width: 10%;
-}
+/* aside */
+
 .aside div div {
     margin-top: 20px;
 }
@@ -71,11 +39,11 @@ img{
     color: white;
 }
 #offcanvasRight{
-    width: 60vw;
+    width: 60%;
 }
 @media screen and (max-width : 768px) {
     #offcanvasRight{
-        width: 100vw;
+        width: 100%;
     }    
 }
 
@@ -97,4 +65,8 @@ img{
 }
 .section-right-bottom{
     height: calc(100vh - 65px - 128px);
+    background-color: #F8F9FA;
+}
+.bg-main{
+    background-color: #F8F9FA;
 }
