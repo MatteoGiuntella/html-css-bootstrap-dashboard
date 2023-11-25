@@ -4,6 +4,9 @@ img{
     display: block;
     width: 100%;
 }
+li{
+    list-style: none;
+}
 /* header */
 #box-logo-small > img{
     width: 30px;
