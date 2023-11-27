@@ -81,3 +81,7 @@ li{
     background-color: antiquewhite;
     color: black;
 }
+.border-black{
+    border: 1px solid black;
+    border-radius: 10%;
+}
