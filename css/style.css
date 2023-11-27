@@ -73,3 +73,11 @@ li{
 .bg-main{
     background-color: #F8F9FA;
 }
+.border-white:hover{
+    background-color: white;
+    color: black;
+}
+.item-aside:hover{
+    background-color: antiquewhite;
+    color: black;
+}

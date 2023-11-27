@@ -66,12 +66,12 @@
                <!-- inizio aside -->
                 <div class="col-auto aside d-flex flex-column justify-content-between text-white bg-img">
                     <div>
-                       <div><i class="fa-solid fa-house"></i><span class=" d-lg-inline-block d-md-none d-sm-none d-none"> home </span> </div>
-                       <div> <i class="fa-solid fa-code"></i> <span  class=" d-lg-inline-block  d-md-none d-sm-none d-none">code</span></div>
-                       <div> <i class="fa-solid fa-chart-simple"></i><span  class=" d-lg-inline-block d-md-none d-sm-none d-none">graph</span></div>
+                       <div class="item-aside"> <i class="fa-solid fa-house"></i><span class=" d-lg-inline-block d-md-none d-sm-none d-none"> home </span> </div>
+                       <div class="item-aside"> <i class="fa-solid fa-code "></i> <span  class=" d-lg-inline-block  d-md-none d-sm-none d-none">code</span></div>
+                       <div class="item-aside"> <i class="fa-solid fa-chart-simple"></i><span  class=" d-lg-inline-block d-md-none d-sm-none d-none">graph</span></div>
                     </div>
                     <div class="justify-content-end aside-bottom">
-                       <div><i class="fa-solid fa-gear"></i><span  class="d-lg-inline-block  d-md-none d-sm-none d-none">setting</span></div>
+                       <div class="item-aside"><i class="fa-solid fa-gear"></i><span  class="d-lg-inline-block  d-md-none d-sm-none d-none">setting</span></div>
                     </div>
                 </div>
                <!-- fine aside -->
@@ -96,7 +96,7 @@
                                 </div>
                            </div>
                            <div class="col-12 col-md-2 order-md-3 order-1">
-                              <span>Nuovo Studente</span><span class="mx-1"><button class="btn bg-blue border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus fa-lg" style="color: #ffffff;"></i></button>
+                              <span>Nuovo Studente</span><span class="mx-1"><button class="btn bg-blue border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus fa-lg"></i></button>
 
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                   <div class="offcanvas-header">
@@ -104,22 +104,22 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                   </div>
                                   <div class="offcanvas-body">
-                                    <form class="row row-cols-2 needs-validation">
-                                      <div class="col">
+                                    <form class="row  needs-validation">
+                                      <div class="col-6">
                                           <label for="user_name">Nome</label>
                                           <div class="input-group mb-3">
                                               <input type="text" class="form-control" id="user_name" aria-label="Username" aria-describedby="basic-addon1" required>
                                           </div>
                                       </div>
   
-                                      <div class="col">
+                                      <div class="col-6">
                                           <label for="user_surname">Cognome</label>
                                           <div class="input-group mb-3">
                                               <input type="text" class="form-control" id="user_surname" aria-label="Username" aria-describedby="basic-addon1" required>
                                           </div>
                                       </div>
   
-                                      <div class="col">
+                                      <div class="col-6">
                                           <label for="user_surname">Email</label>
                                           <div class="input-group mb-3">
                                               <span class="input-group-text" id="basic-addon1">@</span>
@@ -127,14 +127,14 @@
                                             </div>
                                       </div>
   
-                                      <div class="col">
+                                      <div class="col-6">
                                           <label for="user_password">Password</label>
                                           <div class="input-group mb-3">
                                               <input type="password" class="form-control" id="user_password" aria-label="Username" aria-describedby="basic-addon1" required>
                                           </div>
                                       </div>
   
-                                      <div class="col">
+                                      <div class="col-6">
                                           <label for="user_email">Email</label>
                                           <div class="input-group mb-3">
                                               <span class="input-group-text" id="basic-addon1">@</span>
@@ -142,7 +142,7 @@
                                             </div>
                                       </div>
   
-                                      <div class="col">
+                                      <div class="col-6">
                                           <label for="user_password">Password</label>
                                           <div class="input-group mb-3">
                                               <input type="password" class="form-control" id="user_password" aria-label="Username" aria-describedby="basic-addon1" required>
@@ -156,7 +156,7 @@
                                           </div>
                                       </div>
   
-                                      <div class="col">
+                                      <div class="col-6">
                                           <label for="user_city">Città</label>
                                           <div class="input-group mb-3">
                                               <input type="text" class="form-control" id="user_city" aria-label="Username" aria-describedby="basic-addon1" required>
